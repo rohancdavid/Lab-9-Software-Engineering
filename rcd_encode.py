@@ -8,3 +8,10 @@ def encode(password):
         encoded_str.append(digit)
     return ''.join(encoded_str)
 
+def decode(password):
+
+    new_string = ""
+    for i in range(len(password)):
+        x = int(password[i]) -3
+        new_string += str(x)
+    return new_string
