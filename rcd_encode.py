@@ -9,7 +9,7 @@ def encode(password):
     return ''.join(encoded_str)
 
 def decode(password):
-
+# decode function added by Samantha Wong
     new_string = ""
     for i in range(len(password)):
         x = int(password[i]) -3
